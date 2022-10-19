@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+  <title>Sketch Identification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <ol>
+            <center>  
+                <h1 style="font-weight: bold; color: brown;"> Case Study: Google Lens vs MobileNet</h1>
+                <br> <br> 
+               <span>Google Lens: <img src="IMG_20200829_223908.jpg" style="height: 50px; width: 55px ;"></span>
+                <br> <br> 
+                <h5>VS</h4>
+                <h4>Mobile Net </h4>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - Refresher </b>
+                        <img src="IMG_20221018_211613.jpg" class="img-responsive"> <br> 
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default">
+                        Output on <b>Mobile Net Model - Soda Bottle</b>
+                        <span></span>
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default">Google Lens- Refresher </h4>
+                        <hr>
+                        <h4> Google Lens was more accurate</h4>
+                    </div>
+                </div>
+
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - Slipper</b>
+                        <img src="IMG_20221018_211637.jpg" class="img-responsive"> <br>
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default" >
+                        Output on <b>Mobile Net Model - Loafer </b>
+                        <!-- <span></span> -->
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default">Google Lens - Slippers</h4> 
+                        <hr>
+                        <h4>  Google Lens was more accurate</h4>
+                    </div> </h4>
+                    </div>
+                </div>
+
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - Glass</b>
+                        <img src="IMG_20221018_211701.jpg" class="img-responsive"> <br>
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default">
+                        Output on <b>Mobile Net Model - Water Jug</b>
+                        <span></span>
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default" >Google Lens - Water Glass </h4>
+                        <hr>
+                        <h4>Both gave correct results, but Google Lens was more accurate </h4>
+                    </div>
+                </div>
+
+
+
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - Book </b>
+                        <img src="IMG_20221018_211728.jpg" class="img-responsive"> <br>
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default">
+                        Output on <b>Mobile Net Model- Mouse Trap </b>
+                        <span></span>
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default">Google Lens - Philip Pull Man Book</h4>
+                        <hr>
+                        <h4> Google Lens was more accurate </h4>
+                    </div>
+                </div>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - AC Remote</b>
+                        <img src="IMG_20221018_211739.jpg" class="img-responsive"> <br>
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default">
+                        Output on <b>Mobile Net Model- Solar Collector </b>
+                        <span></span>
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default" >Google Lens: AC Remote </h4>
+                        <hr>
+                        <h4>Google Lens was more accurate</h4>
+                    </div> </h4>
+                    </div>
+                </div>
+                <br> <br> 
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - Ruler</b>
+                        <img src="IMG_20221018_211757.jpg" class="img-responsive"> <br>
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default">
+                        Output on <b>Mobile Net Model- Televion </b>
+                        <span></span>
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default">Google Lens- Exact Ruler </h4>
+                        <hr>
+                        <h4> Google Lens was more accurate </h4>
+                    </div>
+                </div>
+                <br> <br>  <br> <br> 
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - Comb</b>
+                        <img src="IMG_20221018_211802.jpg" class="img-responsive"> <br>
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default">
+                        Output on <b>Mobile Net Model - Screw </b>
+                        <span></span>
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default">Google Lens - Comb </h4>
+                        <hr>
+                        <h4> Google Lens was more accurate </h4>
+                    </div>
+                </div>
+
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - Bat </b>
+                        <img src="IMG_20221018_211842.jpg" class="img-responsive"> <br>
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default" >
+                        Output on <b>Mobile Net Model- Microphone</b>
+                        <span></span>
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default">Google Lens- NB Bat </h4>
+                        <hr>
+                        <h4> Google Lens was more accurate </h4>
+                    </div>  </h4>
+                    </div>
+                </div>
+
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - Iron </b>
+                        <img src="IMG_20221018_211854.jpg" class="img-responsive"> <br>
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default ">
+                        Output on <b>Mobile Net Model - Keyboard</b>
+                        <span></span>
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default">Google Lens  -  Sonic Iron </h4>
+                        <hr>
+                        <h4> Google Lens was more accurate</h4>
+                    </div> </h4>
+                    </div>
+                </div>
+
+               
+
+                 <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - Mouse </b>
+                        <img src="IMG_20221018_211907.jpg " class="img-responsive"><br>
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12 btn btn-default">
+                        Output on <b>Mobile Net Model - Computer Mouse</b>
+                        <span></span>
+                    </h5>
+                    <div class="mini_results" class="col-xs-12">
+                        <h4 class="btn btn-default">Google Lens - Logitech Mouse  </h4>
+                        <hr>
+                        <h4> Both gave correct results, but Google Lens was more accurate! </h4>
+                    </div>
+                </div>
+
+
+                <div class="test_image_and_result1 col-xs-12">
+                    
+                        <h4>  I tested 10 images. Mobile Net only identified two objects correctly while Google lens identified all acurately. </h4>
+                    </div>
+                </div>
+                
+
+                <div class="copy_right_footer">
+                    Developed by Arjumand 
+                  </div>
+            </center>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+.copy_right_footer   {
+
+    position: fixed;
+    color:white;
+    bottom:0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+  }
+
+  body{
+    background-color: aquamarine;
+  }
+
+  .test_image_and_result {
+
+    border-radius: 30px;
+    background-color: bisque;
+    padding: 30px;
+    margin:30px;
+    height: 400px;
+  }
+
+  .test_image_and_result1 {
+
+    border-radius: 30px;
+    background-color: aqua;
+    padding: 30px;
+    margin:30px;
+    height: 100px;
+  }
+
+  img{
+    width:200;
+    height: 50px;
+  }
+
+  h4{
+    color: brown;
+  }
